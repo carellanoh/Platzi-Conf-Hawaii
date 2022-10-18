@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <div class="container" style="background-color: aqua;">  <!-- container da un margen izquierdo y derecho, container-fluid se acopla al ancho de la pantalla -->
+        <div class="row">                       <!-- se crea la fila, cada fila tiene 12 columnas -->
+            <div class="col-12 col-lg-3">
+              1
+            </div>
+            <div class="col-12 col-lg-8">
+              2
+            </div>
+            <div class="col-12 col-lg-1">
+              3
+            </div>
+          </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!-- Breakpoints tamaños de pantalla, consultar pagina bootstrap.com para ver pixelaje
+Extra small (xs)
+Small (sm)
+Medium (md)
+Large (lg)
+Extra large (xl)
+Extra extra large (xxl)
+-->
+
+<!-- 
+Bootstrap maneja un sistema de 12 grillas (o cuadriculas) que pueden gestionarse con las clases “.row” (para filas) o “.col” (para columnas).
+En cada fila, puede haber un máximo de 12 columnas (en caso de que hayan mas de 12, la columna subsiguiente se ubicara en la siguiente fila).
+- Container Nos crea un contenedor con un ancho fijo (ancho máximo) en cada uno de los tamaños de dispositivo.
+- Container-fluidNos crea un contenedor (igual que el anterior) pero sin un ancho fijo aparente, por lo que ocuparía todo el ancho de la pantalla.
+Breakpoints: Son puntos de ruptura en el diseño web responsive en los que la pantalla cambia de layout.
+ -->
